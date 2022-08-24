@@ -1,7 +1,3 @@
-D:\Vinicius\C#\Desimportador\Desimportador\obj\Debug\netcoreapp3.1\Desimportador.GeneratedMSBuildEditorConfig.editorconfig
-D:\Vinicius\C#\Desimportador\Desimportador\obj\Debug\netcoreapp3.1\Desimportador.AssemblyInfoInputs.cache
-D:\Vinicius\C#\Desimportador\Desimportador\obj\Debug\netcoreapp3.1\Desimportador.AssemblyInfo.cs
-D:\Vinicius\C#\Desimportador\Desimportador\obj\Debug\netcoreapp3.1\Desimportador.csproj.CoreCompileInputs.cache
 D:\Vinicius\C#\Desimportador\Desimportador\bin\Debug\netcoreapp3.1\Desimportador.exe
 D:\Vinicius\C#\Desimportador\Desimportador\bin\Debug\netcoreapp3.1\Desimportador.deps.json
 D:\Vinicius\C#\Desimportador\Desimportador\bin\Debug\netcoreapp3.1\Desimportador.runtimeconfig.json
@@ -18,8 +14,11 @@ D:\Vinicius\C#\Desimportador\Desimportador\bin\Debug\netcoreapp3.1\System.IO.Pac
 D:\Vinicius\C#\Desimportador\Desimportador\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\Microsoft.Win32.SystemEvents.dll
 D:\Vinicius\C#\Desimportador\Desimportador\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Drawing.Common.dll
 D:\Vinicius\C#\Desimportador\Desimportador\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Drawing.Common.dll
+D:\Vinicius\C#\Desimportador\Desimportador\obj\Debug\netcoreapp3.1\Desimportador.GeneratedMSBuildEditorConfig.editorconfig
+D:\Vinicius\C#\Desimportador\Desimportador\obj\Debug\netcoreapp3.1\Desimportador.AssemblyInfoInputs.cache
+D:\Vinicius\C#\Desimportador\Desimportador\obj\Debug\netcoreapp3.1\Desimportador.AssemblyInfo.cs
+D:\Vinicius\C#\Desimportador\Desimportador\obj\Debug\netcoreapp3.1\Desimportador.csproj.CoreCompileInputs.cache
 D:\Vinicius\C#\Desimportador\Desimportador\obj\Debug\netcoreapp3.1\Desimportador.csproj.CopyComplete
 D:\Vinicius\C#\Desimportador\Desimportador\obj\Debug\netcoreapp3.1\Desimportador.dll
 D:\Vinicius\C#\Desimportador\Desimportador\obj\Debug\netcoreapp3.1\Desimportador.pdb
 D:\Vinicius\C#\Desimportador\Desimportador\obj\Debug\netcoreapp3.1\Desimportador.genruntimeconfig.cache
-D:\Vinicius\C#\Desimportador\Desimportador\obj\Debug\netcoreapp3.1\Desimportador.csproj.AssemblyReference.cache

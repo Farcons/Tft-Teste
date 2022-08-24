@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3yWFcgAJJRTepVmXlToHmMXMr5qz7kJ2lfGoQautaMXl1OJ8cJiW8QgLNShEUChfAOaOf803FL3I7Fl93ecGMg==",
+  "dgSpecHash": "jqk5tmGHGYSL8qq0uc5HyazkbfcgpXpvnJqpDVhPSRmMpb7gWThb6053xolVHsJJwUjHaXHsmkp5tmV424av5w==",
   "success": true,
-  "projectFilePath": "D:\\Vinicius\\C#\\Desimportador\\Desimportador\\Desimportador.csproj",
+  "projectFilePath": "C:\\Users\\vinicius.baranzelli\\Source\\Repos\\Tft-Teste\\Desimportador\\Desimportador\\Desimportador.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinicius.baranzelli\\.nuget\\packages\\closedxml\\0.96.0\\closedxml.0.96.0.nupkg.sha512",
     "C:\\Users\\vinicius.baranzelli\\.nuget\\packages\\documentformat.openxml\\2.16.0\\documentformat.openxml.2.16.0.nupkg.sha512",

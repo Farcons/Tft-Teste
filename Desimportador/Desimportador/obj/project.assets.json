@@ -386,11 +386,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Vinicius\\C#\\Desimportador\\Desimportador\\Desimportador.csproj",
+      "projectUniqueName": "C:\\Users\\vinicius.baranzelli\\Source\\Repos\\Tft-Teste\\Desimportador\\Desimportador\\Desimportador.csproj",
       "projectName": "Desimportador",
-      "projectPath": "D:\\Vinicius\\C#\\Desimportador\\Desimportador\\Desimportador.csproj",
+      "projectPath": "C:\\Users\\vinicius.baranzelli\\Source\\Repos\\Tft-Teste\\Desimportador\\Desimportador\\Desimportador.csproj",
       "packagesPath": "C:\\Users\\vinicius.baranzelli\\.nuget\\packages\\",
-      "outputPath": "D:\\Vinicius\\C#\\Desimportador\\Desimportador\\obj\\",
+      "outputPath": "C:\\Users\\vinicius.baranzelli\\Source\\Repos\\Tft-Teste\\Desimportador\\Desimportador\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

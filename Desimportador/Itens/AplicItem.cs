@@ -1,9 +1,9 @@
 ﻿using Desimportador.Base;
+using Desimportador.Filtros;
 using Desimportador.Itens.Dtos;
-using Desimportador.Itens.Dtos.Enums;
-using Desimportador.Itens.Exportadores;
 using Desimportador.Itens.Mapper;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Desimportador.Itens
 {
@@ -20,7 +20,7 @@ namespace Desimportador.Itens
 
             var listaItens = new MappearItens().MapearDto(content);
 
-            new Exportador().ExportarItens(listaItens);
+            new Exportador().Exportar(listaItens.Cast<object>().ToList(), EnumFiltro.Items);
         }
     }
 }

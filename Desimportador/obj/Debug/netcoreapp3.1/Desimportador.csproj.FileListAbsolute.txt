@@ -22,3 +22,4 @@ D:\Vinicius\C#\Desimportador\Desimportador\obj\Debug\netcoreapp3.1\Desimportador
 D:\Vinicius\C#\Desimportador\Desimportador\obj\Debug\netcoreapp3.1\Desimportador.dll
 D:\Vinicius\C#\Desimportador\Desimportador\obj\Debug\netcoreapp3.1\Desimportador.pdb
 D:\Vinicius\C#\Desimportador\Desimportador\obj\Debug\netcoreapp3.1\Desimportador.genruntimeconfig.cache
+D:\Vinicius\C#\Desimportador\Desimportador\obj\Debug\netcoreapp3.1\Desimportador.csproj.AssemblyReference.cache

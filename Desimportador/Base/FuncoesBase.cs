@@ -1,53 +1,22 @@
 ﻿using ClosedXML.Excel;
-using Desimportador.Itens.Dtos.Desimportador.Itens.Dtos;
 using System;
-using System.Collections.Generic;
-using System.IO;
 
-namespace Desimportador.Itens.Exportadores
+namespace Desimportador.Base
 {
-    public class Exportador
+    public class FuncoesBase
     {
-        public void ExportarItens(List<ItemDto> dto)
+        #region GerarCabeçalhoPlanilha
+        public void GerarCabeçalhoPlanilha<T>(IXLWorksheet worksheet)
         {
-            var pathName = @"D:\Vinicius\Tft\\PlanilhaTft.xlsx";
-            if (File.Exists(pathName))
-                File.Delete(pathName);
-
-            var workbook = new XLWorkbook();
-
-            var planilha = workbook.Worksheets.Add("Itens");
-            GerarCabeçalhoItem(planilha);
-            var linha = 2;
-
-            dto.ForEach(item => 
-            {
-                planilha.Cell("A" + linha).Value = item.Id;
-                planilha.Cell("B" + linha).Value = item.Nome;
-                planilha.Cell("C" + linha).Value = item.Descricao;
-                planilha.Cell("D" + linha).Value = Convert.ToInt32(item.Unico);
-                planilha.Cell("E" + linha).Value = Convert.ToInt32(item.Artefato);
-                planilha.Cell("F" + linha).Value = Convert.ToInt32(item.Escamaluz);
-                planilha.Cell("G" + linha).Value = Convert.ToInt32(item.ItemForja);
-                planilha.Cell("H" + linha).Value = item.BonusForja;
-
-                linha++;
-            });
-
-            workbook.SaveAs(pathName);
-        }
-
-        #region GerarCabeçalhoItem
-        public void GerarCabeçalhoItem(IXLWorksheet worksheet)
-        {
-            var nomes = typeof(ItemDto).GetProperties();
+            var nomes = typeof(T).GetProperties();
             var i = 1;
+
             foreach (var nome in nomes)
             {
                 worksheet.Cell(TransformarNumeroAlfabeto(i) + "1").Value = nome.Name;
                 i++;
             }
-        } 
+        }
         #endregion
 
         #region TransformarNumeroAlfabeto
@@ -110,7 +79,7 @@ namespace Desimportador.Itens.Exportadores
                 default:
                     throw new Exception($"Não foi encontrado letra referente ao número {id}");
             }
-        } 
+        }
         #endregion
     }
 }
